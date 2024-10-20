@@ -10,12 +10,13 @@ The repository is structured into multiple directories, each focusing on specifi
 
 ```
 gobyexample/
-├── golang-25-magic-keywords/
-│   ├── 01-package/
-│   ├── 02-import/
-│   ├── 03-func/
-│   ├── 04-var/
-│   └── 05-const/
+├── examples/
+│   ├── golang-25-magic-keywords/
+│   │   ├── 01-package/
+│   │   ├── 02-import/
+│   │   ├── 03-func/
+│   │   ├── 04-var/
+│   │   └── 05-const/
 └── README.md
 ```
 
@@ -23,7 +24,7 @@ gobyexample/
 
 Each folder inside this repository focuses on a specific topic or concept in Go programming. Here's how to get started:
 
-1. Navigate to a specific topic (e.g., `01-basic-structure-keywords/01-package/`).
+1. Navigate to a specific topic (e.g., `examples/golang-25-magic-keywords/01-package/`).
 2. Read the `README.md` file within that folder for an explanation of the concept.
 3. Check the corresponding `main.go` file for a runnable Go example.
 4. You can run the code examples on your local machine by cloning the repository and running each `main.go` file.
@@ -39,18 +40,18 @@ git clone https://github.com/alfanjuni/gobyexample.git
 Then, navigate into the folder of the example you want to run. For example, to run the example on `package`:
 
 ```bash
-cd gobyexample/01-basic-structure-keywords/01-package
+cd gobyexample/examples/golang-25-magic-keywords/01-package
 go run main.go
 ```
 
 ### Topics Covered
 
 1. **Basic Structure Keywords**: Learn the fundamental keywords that define the structure of a Go program, including `package`, `import`, `func`, `var`, and `const`.
-   - [01-package](./01-basic-structure-keywords/01-package/README.md)
-   - [02-import](./01-basic-structure-keywords/02-import/README.md)
-   - [03-func](./01-basic-structure-keywords/03-func/README.md)
-   - [04-var](./01-basic-structure-keywords/04-var/README.md)
-   - [05-const](./01-basic-structure-keywords/05-const/README.md)
+    - [01-package](./examples/golang-25-magic-keywords/01-package/README.md)
+    - [02-import](./examples/golang-25-magic-keywords/02-import/README.md)
+    - [03-func](./examples/golang-25-magic-keywords/03-func/README.md)
+    - [04-var](./examples/golang-25-magic-keywords/04-var/README.md)
+    - [05-const](./examples/golang-25-magic-keywords/05-const/README.md)
 
 ... (more topics will be added as the repository grows)
 
@@ -64,11 +65,6 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-### About
-
-This repository is inspired by the **Go by Example** project and aims to provide clear, runnable examples of Go language features. Whether you're a beginner or looking to sharpen your Go skills, this repository will be a helpful resource.
-
-Happy coding!
 
 ### Connect with Me
 
