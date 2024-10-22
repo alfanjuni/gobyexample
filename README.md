@@ -40,8 +40,8 @@ git clone https://github.com/alfanjuni/gobyexample.git
 Then, navigate into the folder of the example you want to run. For example, to run the example on `package`:
 
 ```bash
-cd gobyexample/examples/golang-25-magic-keywords/01-package
-go run main.go
+go run /examples/golang-25-magic-keywords/01-package/main.go
+ 
 ```
 
 ### Topics Covered
