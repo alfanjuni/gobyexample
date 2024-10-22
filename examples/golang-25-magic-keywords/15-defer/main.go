@@ -9,3 +9,6 @@ func main() {
 	// This will be printed first.
 	fmt.Println("This will be printed first")
 }
+// Output:
+// This will be printed first
+// This will be printed last

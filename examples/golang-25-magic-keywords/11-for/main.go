@@ -8,3 +8,9 @@ func main() {
 		fmt.Println(i)
 	}
 }
+// Output:
+// 0
+// 1
+// 2
+// 3
+// 4
